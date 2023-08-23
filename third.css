@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height:100vh ;
+    display: flex;
+    justify-content: space-between;
+    background: url("img/6.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 100px;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    max-width: 80px;
+
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .text{
+    position: relative;
+    max-width: 600px;
+    max-height: 500px;
+}
+
+.content .text h2{
+    color: #fff;
+    font-size: 10px;
+    line-height: 1.5em;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: 0.5s ease;
+}
+.content .text h2:hover{
+    font-size: 60px;
+    box-shadow: 3px 3px 20px #e0943a;
+    padding: 10px;
+}
+
+.content .text h2 span{
+    color: #e0943a;
+    font-size: 80px;
+}
+
+.content .text p{
+    margin: 10px 0;
+    color: #fff;
+    font-size: 20px;
+    text-align: justify;
+}
+.content .text a{
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #111;
+    background: #fff;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.content .imgbox img{
+    max-width: 600px;
+    max-height: 500px;
+}
+
+.into{
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    transform: translatey(-50%);
+}
+
+.into li{
+    list-style: none;
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+
+.into li:hover{
+    transform: translateX(-20px);
+}
+
+.into li img{
+    max-width: 80px;
+}
+
+#butt:hover{
+    background: #e0943a;
+}
+

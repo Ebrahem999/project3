@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="third.css">
+    <title>MEAT</title>
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#"><img src="img/OIP (2).jpg" class="logo"></a>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">OFFER</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ABOUT</a></li>
+
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h2>BAZZOKA <span>SWAR</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni consequatur vel, laborum doloremque aliquid officiis asperiores perferendis iste cum exercitationem non placeat sunt accusamus ipsum quo, excepturi ducimus commodi esse necessitatibus ratione repellendus maiores dolores. Dolorem quaerat atque expedita earum accusamus sed quisquam eius quis magnam doloremque accusantium est, fuga laborum blanditiis perferendis minima odio dignissimos vero repellendus. Libero, accusamus temporibus. Facilis ut laboriosam ullam suscipit, odit eum doloremque asperiores facere eveniet tempore saepe voluptates nemo nulla cupiditate officiis unde necessitatibus! Quis quibusdam labore saepe esse rem, earum distinctio pariatur quia. Odio soluta quo nisi delectus modi, eligendi officiis!</p>
+                <a href="#" id="butt">VIEW MENU</a>
+            </div>
+            <div class="imgbox">
+                <img src="img/4.jpg" class="food">
+            </div>
+        </div>
+        <ul class="into">
+            <li><img src="img/1.jpg" onclick="Slider('img/1.jpg')"></li>
+            <li><img src="img/2.jpg" onclick="Slider('img/2.jpg')"></li>
+            <li><img src="img/3.jpg" onclick="Slider('img/3.jpg')"></li>
+        </ul>
+    </section>
+
+    <script>
+       function Slider(anything) {
+            document.querySelector('.food').src=anything;
+        }
+    </script>
+
+</body>
+</html>
